@@ -26,3 +26,16 @@ img {
 .active {
     font-weight: bold;
 }
+
+.about-text {
+    font-size: x-large;
+}
+
+.edu-institution {
+    font-size: larger;
+}
+
+i {
+    float: right;
+    margin: 10px;
+}
