@@ -14,7 +14,7 @@ a {
     padding: 10px;
 }
 
-img {
+#peter-pic {
     display: block;
     margin: 0 auto;
 }
@@ -38,4 +38,8 @@ img {
 i {
     float: right;
     margin: 10px;
+}
+
+.card {
+    background-color: lightgray;
 }
