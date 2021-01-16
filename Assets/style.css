@@ -17,7 +17,7 @@ body {
 }
 
 .column {
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 #peter-pic {
@@ -25,12 +25,12 @@ body {
     margin: 0 auto;
 }
 
-.contact-icon {
-    
-    position: absolute;
-    bottom: 0px;
-    
+.contact-icon-area {
+    text-align: center;
+}
 
+.contact-icon {
+    margin: 10px;
 }
 
 .important {
@@ -58,8 +58,7 @@ body {
 
 
 .card {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .project-description {
