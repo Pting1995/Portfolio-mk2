@@ -13,7 +13,7 @@
     <title>Peter Ting</title>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top $blue-900" id="top-nav">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-color" id="top-nav">
     <div class="container">
         <a class="navbar-brand important" href="#">Peter Ting</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -29,45 +29,65 @@
                     <a class="nav-link nav-sub" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-sub" href="#contact-me">Contact</a>
+                    <a class="nav-link nav-sub" href="#contact-me">Contact Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-sub" href="#">Resume</a>
+                    <a class="nav-link nav-sub"
+                        href="https://docs.google.com/document/d/1IKR9bhgI5NEU_og3VA5SoeDFTLdJ7DRl5sZRYuGzN0g/edit?usp=sharing">Resume</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<body data-bs-spy="scroll" data-bs-target="#top-nav" data-bs-offset="50">
+<body data-bs-spy="scroll" data-bs-target="#top-nav" data-bs-offset="100">
 
     <div class="container-lg">
         <div class="row">
             <div class="col-md-4 column .d-flex">
                 <div class="card h-100">
                     <img src="./Assets/Images/DSC_05011.JPG" class="rounded img-fluid peter-pic" alt="Peter">
+                    <h1 class="card-header important">Peter Ting</h1>
                     <div class="card-body">
-                        <h1 class="card-title important">Peter Ting</h1>
                         <h4 class="important">Full Stack Web Developer</h4>
-                        <!-- add links to github, linkedin -->
+                        <div class="contact-icon">
+                            <a href="https://www.linkedin.com/in/pting002/" target="_blank">
+                                <i class="fa fa-linkedin" style="font-size:50px;"></i>
+                            </a>
+                            <a href="https://github.com/Pting1995" target="_blank">
+                                <i class="fa fa-github" style="font-size:50px;"></i>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1IKR9bhgI5NEU_og3VA5SoeDFTLdJ7DRl5sZRYuGzN0g/edit?usp=sharing" target="_blank">
+                                <i class="far fa-address-card" style="font-size:50px;"></i>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="col-md-8 column">
-                <h1 class="important" id="about">About Me</h1>
-                <p class="about-text">A promising software engineer who recently studied at University of California
-                    Berkeley Extension’s Full Stack Development course. Having also graduated from University of
-                    California, Riverside with a B.S. in Biology, I applied my analytical and logical skill set to rapidly progress
-                    my web development. With an innate curiosity, I love exploring code and the different ways to
-                    achieve the same goal. With a strong basis in responsive HTML, CSS, and jQuery, I am eager to test
-                    my skill set and create something truly amazing and impactful.</p>
+                <div class="card">
+                    <h1 class="card-header important" id="about">About Me</h1>
+                    <div class="card-body">
+                        <p class="about-text">A promising software engineer who recently studied at University of
+                            California
+                            Berkeley Extension’s Full Stack Development course. Having also graduated from University of
+                            California, Riverside with a B.S. in Biology, I applied my analytical and logical skill set
+                            to
+                            rapidly progress my web development. With an innate curiosity, I love exploring code and the
+                            different ways to
+                            achieve the same goal. With a strong basis in responsive HTML, CSS, and jQuery, I am eager
+                            to test
+                            my skill set and create something truly amazing and impactful.</p>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card h-100">
+                            <h2 class="card-header important">Education</h2>
                             <div class="card-body">
-                                <i class="fa fa-graduation-cap" style="font-size:20px;"></i>
-                                <i class="fa fa-code" style="font-size:20px;"></i>
-                                <h2 class="card-title important">Education</h2>
+                                <i class="fa fa-graduation-cap edu-icon" style="font-size:20px;"></i>
+                                <i class="fa fa-code edu-icon" style="font-size:20px;"></i>
                                 <p class="edu-institution">UC Berkeley Coding Bootcamp</p>
                                 <p>Full Stack Web Development</p>
                                 <p class="edu-institution">UC Riverside</p>
@@ -77,8 +97,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card h-100">
+                            <h2 class="card-header important" id=>Interests</h2>
                             <div class="card-body flex-fill">
-                                <h2 class="card-title important">Interests</h2>
                                 <h4 class="important">Full Stack Web Developer</h4>
                             </div>
                         </div>
@@ -92,29 +112,65 @@
             <h5 class="card-header important">Project: Fun Finder</h5>
             <div class="card-body">
                 <img src="Assets/Images/fun-finder-demo-1400x700.gif" class="gif-project" ALIGN="right" HSPACE="30">
-                <p class="card-text project-description">Finding activities to do for people to do since 2021! This starter website is driven to help the people stuck at find ways to make use of their free time. With the help of different API's, we are able to provide recommendations on various games, movies, and recipes that you may want to take a look at! Our site is still in the early production stage but our goal is to provide the most information about the specific search query possible. We hope to implement various link regarding the search results in the future.</p>
-                <a href="https://github.com/Pting1995/Fun-Finder" class="btn btn-dark button-bottom button-left" target="blank">Fun Finder Repo</a>
+                <p class="card-text project-description">Finding activities to do for people to do since 2021! This
+                    starter website is driven to help the people stuck at find ways to make use of their free time. With
+                    the help of different API's, we are able to provide recommendations on various games, movies, and
+                    recipes that you may want to take a look at! Our site is still in the early production stage but our
+                    goal is to provide the most information about the specific search query possible. We hope to
+                    implement various link regarding the search results in the future.</p>
+                <a href="https://github.com/Pting1995/Fun-Finder" class="btn btn-dark button-bottom button-left"
+                    target="blank">Fun Finder Repo</a>
             </div>
         </div>
         <div class="card project-card">
             <h5 class="card-header important">Project: Weather Dashboard</h5>
             <div class="card-body">
                 <img src="Assets/Images/weather-demo-1400x700.gif" class="gif-project" ALIGN="left" HSPACE="30">
-                <p class="card-text project-description">This site was made to tell the user about a given city's weather. Upon opening the webpage, the user will find an input field. Any city typed into the input field will be put into an API and todays weather will be shown on screen along with temperature, humidity, windspeed, and UV index. Below that the user will find a 5-day forecast where they can find the date, the weather, the temperature, and the humidity. If the user wants to search a new city in the input field they can. The days weather report and the 5 day forecast will also be updated. As of right now you can't click on the city history buttons to re-route you to that city, but i hope to add it in the future!</p>
-                <a href="https://github.com/Pting1995/weather" class="btn btn-dark button-bottom button-right" target="blank">Weather Dashboard Repo</a>
+                <p class="card-text project-description">This site was made to tell the user about a given city's
+                    weather. Upon opening the webpage, the user will find an input field. Any city typed into the input
+                    field will be put into an API and todays weather will be shown on screen along with temperature,
+                    humidity, windspeed, and UV index. Below that the user will find a 5-day forecast where they can
+                    find the date, the weather, the temperature, and the humidity. If the user wants to search a new
+                    city in the input field they can. The days weather report and the 5 day forecast will also be
+                    updated. As of right now you can't click on the city history buttons to re-route you to that city,
+                    but i hope to add it in the future!</p>
+                <a href="https://github.com/Pting1995/weather" class="btn btn-dark button-bottom button-right"
+                    target="blank">Weather Dashboard Repo</a>
             </div>
         </div>
         <div class="card project-card">
             <h5 class="card-header important">Project: Random Password Generator</h5>
             <div class="card-body">
-                <img src="Assets/Images/random-password-generator-demo-1400x700.gif" class="gif-project" ALIGN="right" HSPACE="30">
-                <p class="card-text project-description">This site was made to create random passwords! Upon clicking the "Generate Password" button prompts will appear and ask the user the desired criteria for the password. Criteria include character types, such as lower case characters, upper case characters, numeric characters special characters, and also password length. There are two checks for password length and that theres at least one character type selected. All desired characters are added to a control array where a random number is selected between 1 and the total number of items in the control array. This will occur until the desired password length is achieved and then will be displayed in the text box.</p>
-                <a href="https://github.com/Pting1995/password-generator" class="btn btn-dark button-bottom button-left" target="blank">Password Generator Repo</a>
+                <img src="Assets/Images/random-password-generator-demo-1400x700.gif" class="gif-project" ALIGN="right"
+                    HSPACE="30">
+                <p class="card-text project-description">This site was made to create random passwords! Upon clicking
+                    the "Generate Password" button prompts will appear and ask the user the desired criteria for the
+                    password. Criteria include character types, such as lower case characters, upper case characters,
+                    numeric characters special characters, and also password length. There are two checks for password
+                    length and that theres at least one character type selected. All desired characters are added to a
+                    control array where a random number is selected between 1 and the total number of items in the
+                    control array. This will occur until the desired password length is achieved and then will be
+                    displayed in the text box.</p>
+                <a href="https://github.com/Pting1995/password-generator" class="btn btn-dark button-bottom button-left"
+                    target="blank">Password Generator Repo</a>
             </div>
         </div>
     </div>
+
     <div class="container-lg" id="contact-me">
-        
+        <div class="card">
+            <h5 class="card-header important">Contact Me</h5>
+            <div class="card-body">
+                <div class="btn-group" style="width:100%">
+                    <a href="https://www.linkedin.com/in/pting002/" class="btn btn-dark contact-link"
+                        target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Pting1995" class="btn btn-dark contact-link" target="_blank">GitHub</a>
+                    <a href="mailto:pting1995@gmail.com" class="btn btn-dark contact-link" target="_blank">Email</a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </body>
 

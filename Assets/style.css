@@ -1,13 +1,15 @@
+/* necessary for scrollspy */
 body {
     position: relative;
+    background-color: rgb(146, 220, 229);
 }
 
 .navbar-brand {
     font-size: x-large;
 }
 
-#main-body {
-    margin: 10px;
+.navbar-color {
+    background-color: rgb(43, 50, 63)
 }
 
 .nav-sub {
@@ -21,6 +23,14 @@ body {
 #peter-pic {
     display: block;
     margin: 0 auto;
+}
+
+.contact-icon {
+    
+    position: absolute;
+    bottom: 0px;
+    
+
 }
 
 .important {
@@ -39,17 +49,15 @@ body {
     font-size: larger;
 }
 
-i {
+/* icons */
+.edu-icon {
     float: right;
     margin: 10px;
 }
 
-.card {
-    background-color: lightgray;
-}
 
-.project-card {
-    background-color: rgb(105, 179, 221);
+
+.card {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -74,4 +82,8 @@ i {
 
 .gif-project {
     width: 50%;
+}
+
+.contact-link {
+    width: 25%;
 }
