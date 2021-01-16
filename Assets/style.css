@@ -2,11 +2,15 @@ body {
     position: relative;
 }
 
+.navbar-brand {
+    font-size: x-large;
+}
+
 #main-body {
     margin: 10px;
 }
 
-a {
+.nav-sub {
     float: right;
 }
 
@@ -42,4 +46,28 @@ i {
 
 .card {
     background-color: lightgray;
+}
+
+.project-card {
+    background-color: rgb(105, 179, 221);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin: 10px;
+}
+
+.button-bottom {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+
+.button-left {
+    left: 0;
+}
+
+.button-right {
+    right: 0;
 }
